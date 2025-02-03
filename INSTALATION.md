@@ -1,3 +1,6 @@
+TERMINAL
+npm run dev
+
 INSTALL VUE
 
 npm create vue@latest
@@ -10,3 +13,4 @@ INSTALL TAILWIND
 
 npm install -D tailwindcss@3
 npx tailwindcss init
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
